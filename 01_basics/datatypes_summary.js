@@ -36,3 +36,28 @@ const myFunction= function(){
 
 console.log(typeof(myFunction));   // function : function object
 console.log(typeof anotherId);     // symbol
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive), Heap(Non-Primitive)
+
+let myYoutubeName="ManishGupta"
+
+let anothername=myYoutubeName
+anothername="Chaiaurcode"
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+let userOne={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo=userOne;
+userTwo.email="abc@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
