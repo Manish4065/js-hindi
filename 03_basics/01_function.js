@@ -73,7 +73,7 @@ function addTwoNumber(number1, number2){
 
         //0r we can pass directly object in the function
     //   console.log(handleObject({
-    //     username : "manish",
+    //     username : "anish",
     //     price: 399,
     // }))    // Username is manish and Price is 399
 
