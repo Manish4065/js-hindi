@@ -34,6 +34,7 @@ for (const greet of greeting) {
 //  insertion order of the keys. Any value (both objects and primitive
 //  values) may be used as either a key or a value.
 // no duplicate key value value
+// map is not iteratible
 
 const map= new Map()
 map.set('IN',"INDIA")
